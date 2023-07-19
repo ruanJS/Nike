@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2? family= Open+Sans:wght@300;400;500;800 & family= Poppins:wght@100 & display=swap');
+@import url('https://fonts.googleapis.com/css2?family= Anton & display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background: #1e2227;
+    color: #fff;
+    overflow: hidden; 
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 8%;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    background: #1e2227;
+}
+
+
+.logo {
+    width: 120px;
+    cursor: pointer;
+}
+
+.nav-icons img {
+    width: 30px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+.row {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.col-1, .col-2 {
+    flex-basis: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.col-1 {
+    padding-left: 8%;
+
+}
+
+.col-1 h1 {
+    font-size: 76px;
+    line-height: 100px;
+    margin-bottom: 5px;
+    font-family: 'Anton';
+    font-weight: bold;
+}
+
+.col-1 h2 {
+    font-size: 40px;
+    line-height: 60px;
+    font-weight: 500px;
+}
+
+.btn {
+    display: inline-block;
+    width: fit-content;
+    padding: 18px 50px;
+    background: red;
+    font-size: 20px;
+    border: none;
+    margin-top: 20px;
+    transition: transform 0.5s;
+    transition: 1s;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    opacity: 70%;
+    transform: translateY(-5px);
+}
+
+.col-2 {
+    background: red;
+    padding-top: 8%;
+    position: relative;
+    transition: 1s;
+}
+
+.col-2 .feature-img {
+    width: 100%;
+    text-align:center;
+    transform: rotate(-20deg);
+}
+
+.col-2 .feature-img img {
+    width: 80%;
+    transition: 1s;
+}
+
+.col-2 .small-img-row {
+    display: flex;
+    width: 80%;
+    margin: 70px auto 0;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.col-2 .small-img-row .small-img {
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+
+.col-2 .small-img-row .small-img img{
+    width: 130px;
+    transform: translate(-50px 20px);
+    transform: rotate(-25deg);
+}
+.col-2 .small-img-row .small-img:hover {
+    transform: translateY(-5px);
+}
+
+.small-img:nth-child(1) {
+  background: #ff0000; 
+}
+
+.small-img:nth-child(2) {
+    background: #e0dddd; 
+}
+  
+.small-img:nth-child(3) {
+    background: #1837a5; 
+}
+  
+.small-img:nth-child(4) {
+    background: #075a19; 
+}
+  
+.col-2 h2 {
+    position: absolute;
+    font-family: 'Anton', sans-serif;
+    left: 10%;
+    top: 22%;
+    font-size: 150px;
+    opacity: 30%;
+}
+
+.rodape {
+    padding: 50px;
+    text-align: center;
+    color: #fff;
+    background-image: url(../img/walpaper\ nike.jpg);
+    font-size: large;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
