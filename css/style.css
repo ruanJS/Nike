@@ -21,7 +21,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 30px 8%;
+    padding: 10px 8%;
     position: absolute;
     top: 0;
     z-index: 1;
@@ -102,11 +102,20 @@ nav {
     width: 100%;
     text-align:center;
     transform: rotate(-20deg);
+    position: absolute;
 }
+
+div > .feature {
+    position: absolute;
+    margin-left: 5%;
+    transform: translate(-50px 20px);
+    transform: rotate(-25deg);
+} 
+
 
 .col-2 .feature-img img {
     width: 80%;
-    transition: 1s;
+    transition: 1s;    
 }
 
 .col-2 .small-img-row {
@@ -115,6 +124,7 @@ nav {
     margin: 70px auto 0;
     align-items: center;
     justify-content: space-around;
+    margin-top: 70%;
 }
 
 .col-2 .small-img-row .small-img {
@@ -164,6 +174,7 @@ nav {
     color: #fff;
     background-image: url(../img/walpaper\ nike.jpg);
     font-size: large;
+    margin-top: 0%;
 }
 
 
